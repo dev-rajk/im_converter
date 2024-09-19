@@ -48,7 +48,7 @@ st.title("HEIC to JPG Converter")
 
 # File uploader allowing up to 5 HEIC images
 uploaded_files = st.file_uploader(
-    "Upload HEIC images (max 5)", type=['heic'], accept_multiple_files=True, max_files=5
+    "Upload HEIC images (max 5)", type=['heic'], accept_multiple_files=True
 )
 
 # Slider to adjust output JPG quality
